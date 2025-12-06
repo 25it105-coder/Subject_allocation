@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Subject Allocation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background: #007bff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Faculty Subject Allocation</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Faculty Name</th>
+                    <th>Subject</th>
+                    <th>Department</th>
+                    <th>Year / Semester</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Vijayakumar</td>
+                    <td>Mathametics</td>
+                    <td>IT</td>
+                    <td>1st Year / Sem 1</td>
+                </tr>
+                <tr>
+                    <td>Mr. Rajan Kumar</td>
+                    <td>Database Management</td>
+                    <td>CSE</td>
+                    <td>2nd Year / Sem 4</td>
+                </tr>
+                <tr>
+                    <td>Ms. Anitha R</td>
+                    <td>Computer Networks</td>
+                    <td>ECE</td>
+                    <td>3rd Year / Sem 5</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
